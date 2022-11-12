@@ -1,0 +1,165 @@
+@media only screen and (max-width: 1024px) {
+  .hero-text-box {
+    width: 100%;
+  }
+  h1 {
+    font-size: 250%;
+    letter-spacing: 2.5px;
+    padding: 0 3%;
+  }
+  .btn {
+    margin-left: 3%;
+  }
+  header {
+    position: relative;
+    background-size: contain;
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    height: 50vh;
+  }
+  .row {
+    width: 100%;
+    z-index: 1;
+  }
+  .row img {
+    padding: 0 2%;
+  }
+  .toggle {
+    display: inline-block;
+  }
+  .row ul {
+    float: left;
+    display: none;
+  }
+  .row ul li {
+    display: block;
+    font-size: 100%;
+    padding: 10px 20px;
+  }
+  .colA {
+    margin: 2% 0 0 20%;
+  }
+  .colB {
+    margin: 2% 2%;
+  }
+  #plans,
+  #location {
+    padding: 80px 10px;
+    grid-column-gap: 1em;
+  }
+}
+
+@media only screen and (max-width: 768) {
+}
+@media only screen and (max-width: 480px) {
+  .hero-text-box {
+    width: 100%;
+  }
+  h1 {
+    font-size: 140%;
+    letter-spacing: 1px;
+    padding: 0 3%;
+  }
+  .btn {
+    margin-left: 3%;
+    font-size: 90%;
+    padding: 8px 30px;
+  }
+  header {
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 33vh;
+  }
+  .row {
+    width: 100%;
+    z-index: 1;
+  }
+  .row img {
+    height: 50px;
+    width: auto;
+    float: left;
+    padding: 0 1%;
+  }
+  .row ul li {
+    display: inline-block;
+    font-size: 50%;
+    padding: 10px 2px;
+  }
+  .sticky #logo-black {
+    margin: 5px 0px 2px 5px;
+  }
+  .sticky ul li {
+    margin-left: 20px;
+    display: block;
+    padding-top: 0px;
+  }
+  .sticky .toggle {
+    margin-top: 0;
+  }
+  section {
+    padding: 20px 10px;
+    font-size: 70%;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  .colA {
+    width: 100px;
+    height: 150px;
+    margin: 2% 0 0 10%;
+  }
+  .colB {
+    font-size: 15px;
+    margin: -40% 0 0 50%;
+  }
+  .work-step {
+    width: 250px;
+    height: auto;
+  }
+  .colB .store img {
+    height: 50px;
+  }
+  #customer {
+    padding: 10px;
+  }
+  blockquote {
+    font-size: 55%;
+  }
+  #plans,
+  #location {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box {
+    margin-top: 10px;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+  }
+  .form {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 15px;
+  }
+  footer .list1 {
+    font-size: 50%;
+  }
+  footer .list1 li {
+    float: left;
+    margin-right: 30px;
+  }
+  footer .list2 {
+    display: none;
+  }
+  footer div:last-child {
+    text-align: center;
+    margin-top: 15px;
+  }
+}
